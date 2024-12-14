@@ -18,7 +18,7 @@ model User {
   email           String    
   firstname       String
   lastname        String
-  profileImage    String
+  profileImage    String?
   GuestbookEntry  GuestbookEntry[]
 }
 
