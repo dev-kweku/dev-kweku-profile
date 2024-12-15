@@ -2,6 +2,7 @@ import { Hero } from "./components/Hero";
 import { SectionTwo } from "./components/SectionTwo";
 import { Footer } from "./components/Footer";
 import { AboutSection } from "./components/AboutSection";
+import { FavoriteProjects } from "./components/FavoriteProjects";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero/>
       <SectionTwo/>
       <AboutSection/>
+      <FavoriteProjects/>
       <Footer/>
 
     </div>

@@ -9,7 +9,7 @@ export async function postData(formData:FormData) {
     const {getUser}=getKindeServerSession()
     const user=await getUser()
 
-    if(!user){ 
+    if(!user){
         throw new Error("Unauthorized")
     }
 
@@ -21,6 +21,6 @@ export async function postData(formData:FormData) {
             message:message,
         }
     })
-    revalidatePath("/gustbook")
+    revalidatePath("/guestbook")
     
 }
