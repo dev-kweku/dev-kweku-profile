@@ -16,7 +16,7 @@
 
     async function getGuestBrookEntry() {
     noStore();
-    const data = await prisma.guestbookEntry.findMany({
+    const data = await prisma.guestBookEntry.findMany({
         select: {
         User: {
             select: {
